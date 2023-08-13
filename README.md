@@ -7,4 +7,5 @@ Requirements :
  	 & matplotlib
   
 How to run : 
-  python3 script.py
+	update mu, k, n, max_count variables in script.py then run 
+ 	"python3 script.py"
