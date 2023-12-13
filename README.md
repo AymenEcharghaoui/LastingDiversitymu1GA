@@ -1,7 +1,10 @@
 # LastingDiversitymu1GA
 This repository contains an implementation of the Experimental section of the article : 
+
 "Strong Drift Towards Diverse Populations in Genetic Algorithms" (link : https://arxiv.org/abs/2302.12570)
+
 Accepted in AAAI-24 
+
 Requirements : 
 	numpy 
  	matplotlib
