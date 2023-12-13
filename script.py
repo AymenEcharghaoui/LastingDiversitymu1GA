@@ -60,8 +60,8 @@ def run_experiment(mu,n,k,max_count,rng):
 if __name__ == '__main__':
     rng = np.random.default_rng(11)
     # number of fitness evaluations
-    n = 1000
-    mu = 200
+    n = 100
+    mu = 20
     k = 5
     max_count = int(6e5)
     count,hamming_p,run_count = run_experiment(mu, n, k, max_count,rng)
@@ -73,7 +73,8 @@ if __name__ == '__main__':
     plt.xlabel('iteration')
     plt.ylabel('relative frequency of Hamming distances')
     plt.legend()
-    plt.savefig(f'relative_frequency_mu{mu}_n{n}_k{k}.png')
+    plt.savefig(f'relative_frequency_mu{mu}_n{n}_k{k}.png',dpi=300)
+    plt.savefig(f'relative_frequency_mu{mu}_n{n}_k{k}.svg',format='svg')
     
 
 
