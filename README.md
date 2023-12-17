@@ -1,4 +1,4 @@
-# LastingDiversitymu1GA
+# Strong Drift Towards Diverse Populations in Genetic Algorithms
 This repository contains an implementation of the Experimental section of the article : 
 
 Strong Drift Towards Diverse Populations in Genetic Algorithms (link : https://arxiv.org/abs/2302.12570)
